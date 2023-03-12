@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
-        <title>RoomGPT</title>
+        <title>DesAIgner</title>
       </Head>
 
       <Header />
@@ -34,14 +34,13 @@ const Home: NextPage = () => {
           for everyone.
         </h1>
         <h2 className="mx-auto mt-12 max-w-xl text-lg sm:text-gray-400  text-gray-500 leading-7">
-          Take a picture of your room and see how your room looks in different
-          themes. 100% free – remodel your room today.
+          Завантаж фото своєї кімнати та підбери стиль. 100% безкоштовно – редизайн свою кімнату.
         </h2>
         <Link
           className="bg-blue-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition"
           href="/dream"
         >
-          Generate your dream room
+          Згенеруй кімнату дизайнер АІ
         </Link>
         <div className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6">
           <div className="flex flex-col space-y-10 mt-4 mb-16">
@@ -59,7 +58,7 @@ const Home: NextPage = () => {
               <div className="sm:mt-0 mt-8">
                 <h3 className="mb-1 font-medium text-lg">Generated Room</h3>
                 <Image
-                  alt="Generated photo of a room with roomGPT.io"
+                  alt="Згенероване фото кімнати з AI"
                   width={400}
                   height={400}
                   src="/generated-pic-2.jpg"
